@@ -1,0 +1,15 @@
+.responsive {
+    width: 70%;
+    height: 70%;
+}
+
+.blog_list a img, 
+.blog_detail img {
+  
+    margin: 20px auto;
+}
+
+/* .responsive {
+    width: 100%;
+    height: auto;
+} */
