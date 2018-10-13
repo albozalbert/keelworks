@@ -24,7 +24,7 @@
 			"baseUrl": "http:\/\/s.w.org\/images\/core\/emoji\/72x72\/",
 			"ext": ".png",
 			"source": {
-				"concatemoji": "http:\/\/appsix.al\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.1"
+				"concatemoji": "http:\/\/keelworks.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.1"
 			}
 		};
 		! function (a, b, c) {
@@ -65,7 +65,7 @@
 			padding: 0 !important;
 		}
 	</style>
-	<link rel='stylesheet' id='style-css' href='../wp-content/themes/appsix/css/style.css' type='text/css' media='screen' />
+	<link rel='stylesheet' id='style-css' href='../wp-content/themes/keelworks/css/style.css' type='text/css' media='screen' />
 	<link rel='stylesheet' id='jetpack_css-css' href='../wp-content/plugins/jetpack/css/jetpackf3df.css?ver=3.7.2' type='text/css'
 	 media='all' />
 	<script type='text/javascript' src='../wp-includes/js/jquery/jqueryc1d8.js?ver=1.11.3'></script>
@@ -182,7 +182,7 @@
 <script type='text/javascript' src='../wp-content/plugins/jetpack/modules/wpgroho5b31.js?ver=4.3.1'></script>
 <script type='text/javascript' src='../ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 <script type='text/javascript' src='../html5shim.googlecode.com/svn/trunk/html5.js'></script>
-<script type='text/javascript' src='../wp-content/themes/appsix/js/general.js'></script>
+<script type='text/javascript' src='../wp-content/themes/keelworks/js/general.js'></script>
 <script type='text/javascript' src='../stats.wp.com/e-201546.js' async defer></script>
 <script type='text/javascript'>
 		_stq = window._stq || [];
@@ -192,118 +192,12 @@
 			blog: '82758618',
 			post: '31',
 			tz: '0',
-			srv: 'appsix.al'
+			srv: 'keelworks.org'
 		}]);
 		_stq.push(['clickTrackerInit', '82758618', '31']);
 	</script>
-	<script src="http://maps.google.com/maps/api/js?sensor=false&amp;libraries=geometry&amp;v=3.7"></script>
-	<script src="../wp-content/themes/appsix/js/maplace.min.js"></script>
-	<script type="text/javascript">
-		$(function () {
-            /*
-            	new Maplace({
-            		map_div: '#gmap',
-            		locations: [{
-            			lat: 42.64996399129722, 
-            			lon: 21.16889476776123,
-            			zoom: 17
-            		}],
-            		show_markers: true,
-            		controls_on_map: false
-            	}).Load(); */
-
-			var myOptions = {
-				zoom: 15,
-				center: new google.maps.LatLng(42.64996399129722, 21.16889476776123),
-				mapTypeId: google.maps.MapTypeId.ROADMAP,
-				styles: [{
-					"featureType": "landscape",
-					"stylers": [{
-						"saturation": -100
-					}, {
-						"lightness": 65
-					}, {
-						"visibility": "on"
-					}]
-				}, {
-					"featureType": "poi",
-					"stylers": [{
-						"saturation": -100
-					}, {
-						"lightness": 51
-					}, {
-						"visibility": "simplified"
-					}]
-				}, {
-					"featureType": "road.highway",
-					"stylers": [{
-						"saturation": -100
-					}, {
-						"visibility": "simplified"
-					}]
-				}, {
-					"featureType": "road.arterial",
-					"stylers": [{
-						"saturation": -100
-					}, {
-						"lightness": 30
-					}, {
-						"visibility": "on"
-					}]
-				}, {
-					"featureType": "road.local",
-					"stylers": [{
-						"saturation": -100
-					}, {
-						"lightness": 40
-					}, {
-						"visibility": "on"
-					}]
-				}, {
-					"featureType": "transit",
-					"stylers": [{
-						"saturation": -100
-					}, {
-						"visibility": "simplified"
-					}]
-				}, {
-					"featureType": "administrative.province",
-					"stylers": [{
-						"visibility": "off"
-					}]
-				}, {
-					"featureType": "water",
-					"elementType": "labels",
-					"stylers": [{
-						"visibility": "on"
-					}, {
-						"lightness": -25
-					}, {
-						"saturation": -100
-					}]
-				}, {
-					"featureType": "water",
-					"elementType": "geometry",
-					"stylers": [{
-						"hue": "#ffff00"
-					}, {
-						"lightness": -25
-					}, {
-						"saturation": -97
-					}]
-				}]
-			};
-
-			var map = new google.maps.Map(document.getElementById('gmap'), myOptions);
-
-			var marker = new google.maps.Marker({
-				position: new google.maps.LatLng(42.64996399129722, 21.16889476776123),
-				map: map,
-				title: 'Appsix'
-			});
-
-		});
-	</script>
+	
+	
 </body>
 
 </html>
